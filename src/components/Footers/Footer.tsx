@@ -87,7 +87,7 @@ const Footer = () => {
 				{/* Brand Column */}
 				<div className='lg:col-span-4 space-y-8 text-center lg:text-left'>
 					<div className='flex flex-col items-center lg:items-start gap-4'>
-						<LogoImage className='!w-[50px]' />
+						<LogoImage className='w-10 lg:w-14 bg-black rounded-md' />
 						<h2 className='text-[#0A0A0A] font-serif text-2xl tracking-tight'>
 							{CompanyShortName}
 						</h2>

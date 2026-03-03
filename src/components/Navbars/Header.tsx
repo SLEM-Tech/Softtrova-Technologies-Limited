@@ -214,7 +214,7 @@ const Header = () => {
 				<div className='hidden slg:grid grid-cols-12 items-center w-full py-6 max-w-[1540px] px-10 mx-auto'>
 					{/* Logo */}
 					<div className='col-span-3'>
-						<LogoImage className='!w-[45px] hover:scale-105 transition-transform' />
+						<LogoImage className='w-10 lg:w-14 bg-black rounded-md hover:scale-105 transition-transform' />
 					</div>
 
 					{/* Nav Links */}
@@ -274,7 +274,7 @@ const Header = () => {
 							>
 								<FiMenu className='text-xl text-black' />
 							</button>
-							<LogoImage className='!w-[35px]' />
+							<LogoImage className='w-10 lg:w-14 bg-black rounded-md' />
 						</div>
 						<div
 							onClick={onOpenCart}

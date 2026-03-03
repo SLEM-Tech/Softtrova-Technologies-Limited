@@ -20,7 +20,7 @@ const Invoice = ({ data, printRef }: InvoiceProps) => {
 			{/* 1. Header: Branding & Invoice Metadata */}
 			<div className='flex flex-col sm:flex-row justify-between items-start border-b-2 border-slate-100 pb-10 mb-10'>
 				<div className='space-y-4'>
-					<LogoImage className='w-12 h-auto' />
+					<LogoImage className='w-10 lg:w-14 bg-black rounded-md' />
 					<div>
 						<h1 className='text-4xl font-black tracking-tighter text-slate-900 uppercase'>
 							Invoice

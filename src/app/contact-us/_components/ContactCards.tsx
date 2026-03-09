@@ -20,21 +20,24 @@ const ContactCards = () => {
 			title: "Email Us",
 			type: "email",
 			icon: <RxEnvelopeClosed className='text-primary text-2xl xl:text-4xl' />,
-			additionalText: GeneralSettings ? GeneralSettings[0]?.value : "N/A",
+			// additionalText: GeneralSettings ? GeneralSettings[0]?.value : "N/A",
+			additionalText: "georgegift27@gmail.com",
 		},
 		{
 			id: 2,
 			title: "Call Us",
 			icon: <FiPhoneCall className='text-primary text-2xl xl:text-4xl' />,
 			type: "tel",
-			additionalText: GeneralSettings ? GeneralSettings[1]?.value : "N/A",
+			// additionalText: GeneralSettings ? GeneralSettings[1]?.value : "N/A",
+			additionalText: "07045825084",
 		},
 		{
 			id: 3,
 			title: "Location",
 			type: "text",
 			icon: <IoLocationOutline className='text-primary text-2xl xl:text-4xl' />,
-			description: GeneralSettings ? GeneralSettings[2]?.value : "N/A",
+			// description: GeneralSettings ? GeneralSettings[2]?.value : "N/A",
+			description: "4, LOVE ESTATE, ADEGBAYI, OYO STATE, NIGERIA",
 		},
 		// Add more contact card data here if needed
 	];
